@@ -1,0 +1,144 @@
+body{
+  margin: 0;
+  font-family: serif;
+}
+header{
+  background-color: darkblue;
+  padding: 0 10px ;
+}
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 5px 20px;
+}
+.navbarlist{
+  display: flex;
+  list-style-type: none;
+}
+.navbarlist li{
+  margin: 0 6px;
+  text-decoration: none;
+}
+.navbarlist li a{
+  text-decoration: none;
+  color: white;
+}
+.ebisah1{
+  font-size: 20px;
+  color: white;
+  transition: transform 0.3s ease;
+}
+.ebisah1:hover{
+  color: aqua;
+  transform: scale(1.1);
+}
+.ebisa{
+  color: aqua;
+}
+.home{
+  text-align: center;
+}
+h1{
+  color: darkblue;
+  font-size: 25px;
+}
+p{
+  font-size: 18px;
+  margin: 20px 0 20px 0;
+}
+.hireme{
+  background-color: darkblue;
+  border-radius: 20px;
+  border-color: white;
+  padding: 10px;
+  cursor: none;
+  transition: transform 0.1s ease-in-out;
+}
+.hireme:hover{
+  transform: scale(1.1)
+}
+.hireme a:hover{
+  color: white;
+  cursor: none;
+}
+.hireme a{
+  color: white;
+  text-decoration: none;
+}
+.homediv{
+  background-color: azure;
+  border: 1px solid;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+.homediv:hover{
+  transform: scale(1.1);
+}
+.aboutdiv{
+  background-color: azure;
+  border: 1px solid;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.aboutdiv:hover{
+  transform: scale(1.1);
+}
+.project{
+  text-align: center;
+  background-color: azure;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 30px;
+  margin-bottom: 20px;
+}
+img{
+  border-radius: 25px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+img:hover{
+  transform: scale(1.1);
+}
+.contact{
+  text-align: center;
+  background-color: azure;
+  margin: 30px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+input{
+width: 200px;
+height: 20px;
+border-radius: 5px;
+border: 1px solid;
+}
+textarea{
+  width: 200px;
+  height: 100px;
+}
+.sendbtn{
+  background-color: darkblue;
+  color: white;
+  border-radius: 10px;
+  padding: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  transition: transform 0.1s ease;
+}
+.sendbtn:hover{
+  transform: scale(1.1)
+}
+footer{
+  background-color: darkblue;
+  color: white;
+  padding: 5px;
+  margin-bottom: 0px;
+  text-align: center;
+}
