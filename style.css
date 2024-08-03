@@ -116,10 +116,12 @@ img:hover{
 input{
 width: 200px;
 height: 20px;
-border-radius: 5px;
+border-radius: 7px;
 border: 1px solid;
 }
 textarea{
+  border-radius: 7px;
+  border: 1px solid;
   width: 200px;
   height: 100px;
 }
@@ -141,4 +143,7 @@ footer{
   padding: 5px;
   margin-bottom: 0px;
   text-align: center;
+}
+h3{
+  font-size: 15px;
 }
